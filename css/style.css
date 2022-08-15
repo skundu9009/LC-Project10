@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 51, 0.6), rgba(0, 0, 51, 0.6)), url(../aasets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding: 0 2.4rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 0;
+    margin-bottom: 10rem;
+    position: relative;
+}
+
+.logo {
+    line-height: 1.1;
+}
+
+.logo h1 {
+    font-size: 2.4rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 8.4rem;
+
+}
+
+.nav-list::after {
+    content: '';
+    width: 93rem;
+    position: absolute;
+    border: 1px solid white;
+    bottom: 0;
+    right: 0;
+}
+
+.nav-list ul{
+    display: flex;
+    gap: 8.4rem;
+
+}
+
+.list-item {
+    font-size: 1.6rem;
+}
+
+.call-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.call-us-text {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.list-item {
+    display: flex;
+    list-style: none;
+}
+
+.menu {
+    display: none;
+}
+
+.main-section {
+    position: relative;
+    width: 60%;
+    margin-left: 4.4rem;
+}
+
+.main-section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6.4rem;
+    margin-bottom: 4.4rem;
+}
+.btn {
+    font-size: 2.4rem;
+    padding: 1em 2.8em;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10rem;
+    background-color: transparent;
+}
+
+.card-1, .card-2 {
+    width: 25rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.2rem;
+    position: absolute;
+}
+
+.head-1 {
+    font-size: 1.6rem;
+}
+
+.card-1 {
+    left: 81%;
+    top: 85%;
+
+}
+
+.card-2 {
+    top: -16%;
+    right: -50%;
+}
+
+.card-1::after {
+    content: '';
+    width: 5rem;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    top: 9rem;
+    right: -5rem;
+}
+
+.card-1::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    background: whitesmoke;
+    position: absolute;
+    top: 8.5rem;
+    right: -6rem;
+}
+
+.card-2::after {
+    content: '';
+    height: 5rem;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    bottom: -5.2rem;
+    left: 17rem;
+}
+
+.card-2::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    background: whitesmoke;
+    position: absolute;
+    bottom: -6.2rem;
+    left: 16.5rem;
+}
+
+.bulb , .puzzle {
+    display: inline-block;
+    width: 6.2rem;
+    height: 3.2rem;
+    background-color: white;
+    border-radius: 10rem;
+}
+
+
+.call-svg {
+    color: white;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.bulb-svg , .puzzle-svg{
+    color: black;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin: 0.3rem 0 0.3rem 1.6rem;
+}
+

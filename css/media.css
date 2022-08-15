@@ -1,0 +1,121 @@
+@media (max-width: 77em) {
+    html {
+        font-size: 55%;
+    }
+
+    .navbar {
+        position: static;
+    }
+    .menu {
+        display: block;
+        width: 2.4rem;
+        height: 2.4rem;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        z-index: 100;
+    }
+
+    .menu-item {
+        font-size: 2.4rem;
+        color: red;
+    }
+
+    .nav-list {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #666685;
+        background-color: rgba(255, 255, 255, 0.9);
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.4rem;
+        z-index: 10;
+
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 3.2rem;
+
+    }
+
+    .call-svg {
+        color: #666685;
+    }
+
+    .navbar .menu-item[name="close-outline"] {
+        display: none;
+    }
+
+    .nav-open .nav-list {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .nav-open .menu-item[name="menu-outline"] {
+        display: none;
+    }
+
+    .nav-open .menu-item[name="close-outline"] {
+        display: block;
+    }
+
+    
+}
+
+@media (max-width: 58.5em) {
+    html {
+        font-size: 45%;
+    }
+} 
+
+@media (max-width: 47.5em) {
+    html {
+        font-size: 38%;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 34em) {
+
+    .main-section {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+    }
+
+    .head-1 {
+        font-size: 1.4rem;
+    }
+
+    .card-1 , .card-2 {
+        width: 22rem;
+        padding: 1.4rem;
+    }
+
+    .card-1 {
+        left: 0;
+        top: 130%;
+    }
+
+    .card-2 {
+        top: 80%;
+        right: -10%;
+    }
+}
